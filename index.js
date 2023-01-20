@@ -89,7 +89,7 @@ console.log("mongo connect")
 app.use(express.json());
 
 app.get('/',function(request,responce){
-    responce.send('This🙋‍♂️ is, 🌏  an hall🎊 booking✨ application🤩=====>>>>"/customers=to show customers","/rooms= to show the rooms"')
+    responce.send('This🙋‍♂️ is, 🌏  an hall🎊 booking✨ application🤩=====>>>>"/customer=to show customers","/room= to show the rooms"')
 
 })
 app.get('/room',async function(request,responce){
